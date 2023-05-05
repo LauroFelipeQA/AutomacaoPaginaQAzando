@@ -25,3 +25,8 @@ Atualização v3
 
 - Waitings (sleep pode não ser tão usual, da para usar o smartwait)
 - Adicionando scroll que é um (js)
+
+Atualização v4
+
+- extração de relatório de execução pelo cucumber adicionando plugins json e html;
+- extração de relatório de execução pelo cluecumber : mvn test -Dtest=**/*RunCucumberTest cluecumber-report:reporting

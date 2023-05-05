@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69626e3-172a-4b3c-89f0-1a7d81d4d30b" name="Changes" comment="Projeto v2 -Melhoria na classe RunCucumberTest, usando BeforeClass e AfterClass para inicializar e finalizar o webdriver fora dos steps. README atualizado">
+    <list default="true" id="c69626e3-172a-4b3c-89f0-1a7d81d4d30b" name="Changes" comment="Projeto v2 - Criação de metodo scroll. README atualizado">
+      <change afterPath="$PROJECT_DIR$/src/test/java/support/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/Desconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Desconto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,24 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683209693930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Projeto v2 - Criação de metodo scroll. README atualizado">
+      <created>1683287170629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683287170629</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projeto v1" />
     <MESSAGE value="Projeto v1 - README AJUSTADO" />
     <MESSAGE value="Projeto v2 -Melhoria na classe RunCucumberTest, usando BeforeClass e AfterClass para inicializar e finalizar o webdriver fora dos steps. README atualizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projeto v2 -Melhoria na classe RunCucumberTest, usando BeforeClass e AfterClass para inicializar e finalizar o webdriver fora dos steps. README atualizado" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/steps/Desconto.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Projeto v2 - Criação de metodo scroll. README atualizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto v2 - Criação de metodo scroll. README atualizado" />
   </component>
 </project>
