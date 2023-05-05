@@ -20,3 +20,8 @@ Atualização v2
 - Criado os metodos referentes aos steps na HomePage.
 - Troca de funções nos steps por metodos da HomePage.
 - Melhorado o metodo de preencherEmail, recebendo uma string de email para repassar para o driver pelo sendKeys.
+
+Atualização v3
+
+- Waitings (sleep pode não ser tão usual, da para usar o smartwait)
+- Adicionando scroll que é um (js)

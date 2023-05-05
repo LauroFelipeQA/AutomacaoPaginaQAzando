@@ -13,9 +13,10 @@ public class Desconto extends RunCucumberTest {
     HomePage homePage = new HomePage(driver);
 
     @Dado("^que estou no site da qazando$")
-    public void que_estou_no_site_da_qazando() {
+    public void que_estou_no_site_da_qazando() throws InterruptedException {
         driver.manage().window().maximize();
         homePage.acessarAplicacao();
+        homePage.scrollDown();
     }
 
     @Quando("^eu preencho meu e-mail$")
